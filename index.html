@@ -1,46 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Dougnout search</title>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
 
-    <link rel="stylesheet" href="style.css">
+<head>
+  <title>Dougnout search</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
 
   <body>
-
     <div class="pac-card" id="pac-card">
       <div>
-
-      <div id="title">
-        Dougnout search
+        <div id="title">
+          Dougnout search
+        </div>
+      </div>
+      <div id="pac-container">
+        <input id="autocomplete" placeholder="Enter a city" type="text" />
       </div>
     </div>
-
-    <div id="pac-container">
-      <input id="autocomplete" placeholder="Enter a city" type="text" />
-    </div>
-
-    <div id="type-selector" class="pac-controls">
-      <select id="country">
-        <option value="all" selected>All</option>
-        <option value="au">Australia</option>
-        <option value="br">Brazil</option>
-        <option value="ca">Canada</option>
-        <option value="fr">France</option>
-        <option value="de">Germany</option>
-        <option value="mx">Mexico</option>
-        <option value="nz">New Zealand</option>
-        <option value="it">Italy</option>
-        <option value="za">South Africa</option>
-        <option value="es">Spain</option>
-        <option value="pt">Portugal</option>
-        <option value="us">U.S.A.</option>
-        <option value="uk">United Kingdom</option>
-      </select>
-    </div>
-  </div>
-
     <div id="map"></div>
 
     <div id="listing">
@@ -48,8 +25,7 @@
         <tbody id="results"></tbody>
       </table>
     </div>
-
-    <div  style="display: none">
+    <div style="display: none">
       <div id="info-content">
         <table>
           <tr id="iw-url-row" class="iw_table_row">
@@ -75,11 +51,8 @@
         </table>
       </div>
     </div>
-
     <script src='index.js'>
-
     </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBck5K6DMfHa6yy_YmpTv_ETFForn7U06c&libraries=places&callback=initMap" async defer></script>
-</body>
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBck5K6DMfHa6yy_YmpTv_ETFForn7U06c&libraries=places&callback=initMap" async defer></script>
+  </body>
 </html>

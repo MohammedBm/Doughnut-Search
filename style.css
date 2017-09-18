@@ -13,11 +13,6 @@ body {
   padding: 0;
 }
 
-#description {
-  font-family: Roboto;
-  font-size: 15px;
-  font-weight: 300;
-}
 
 #infowindow-content .title {
   font-weight: bold;
@@ -25,9 +20,6 @@ body {
 
 #infowindow-content {
   display: none;
-}
-#autocomplete {
-  width: 100%;
 }
 
 #map #infowindow-content {
@@ -43,6 +35,7 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   background-color: #fff;
   font-family: Roboto;
+  width: 300px;
 }
 
 #results{
@@ -75,7 +68,7 @@ body {
   margin-top: 12px;
   padding: 0 11px 0 13px;
   text-overflow: ellipsis;
-  width: 400px;
+  width: 250px;
 }
 
 #pac-input:focus {
