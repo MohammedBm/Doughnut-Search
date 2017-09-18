@@ -114,7 +114,7 @@ function onPlaceChanged() {
 function search() {
   var search = {
     bounds: map.getBounds(),
-    types: ['cafe']
+    types: ['doughnut']
   };
 
   places.nearbySearch(search, function(results, status) {
